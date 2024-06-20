@@ -18,6 +18,11 @@
 
 .topLinePara {
     font: size 8px;
+}
+
+.learnMore {
+    border-bottom: 1px solid white;
+    cursor: pointer;
 
 }
 
@@ -26,12 +31,15 @@
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    padding: 0 30px ;
+    padding: 0 30px;
+    border-bottom: 3px solid rgb(220, 220, 220, 0.4);
 }
+
 
 .headerContainer img {
     width: 100px;
 }
+
 
 .navigationContainer nav {
     display: flex;
@@ -62,4 +70,42 @@
     border-radius: 5px;
     font-size: 10px;
     padding: 5px 10px;
+    cursor: pointer;
 }
+
+.headerButton:hover {
+    background-color: #9A54BC;
+    color: white;
+}
+
+.topSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2B0236;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.topSectionHeader {
+    font-size: 32px;
+    text-align: center;
+    columns: #2B0236;
+}
+
+.topSectionButton {
+    background-color: #9A54BC;
+    padding: 10px 15px;
+    border: 1px solid #9A54BC;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.topSectionButton:hover {
+    background-color: white;
+    color: #9A54BC;
+    cursor: pointer;
+}
+
