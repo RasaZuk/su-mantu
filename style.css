@@ -174,3 +174,80 @@ h2 {
     align-items: center;
     justify-content: space-around;
 }
+
+.bigPhoneContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: beige;
+}
+
+.vendorAppAndPhoneContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: tomato;
+}
+
+
+.paragraph {
+    width: 400%;
+    height: 300px;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+
+.vendorAppPhone {
+    width: 50%;
+    background-color: violet;
+}
+
+
+.paragraphBtnContainer {
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 9px 0px rgba(0, 0, 0, 0.069);
+    -webkit-box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.26);
+}
+
+.paragraphBtnContainer > button {
+    width: 50%;
+    padding: 5px 0px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.paragraphBtnContainer>button:hover {
+    border: #9A54BC 2px solid;
+    border-radius: 3px;
+    background-color: #60267F;
+    color: white;
+}
+
+
+.paragraphContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.vendorPara {
+    background-color: #f2f2f2;
+    width: 95%;
+    padding: 10px 15px;
+    
+
+}
+
