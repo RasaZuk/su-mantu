@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
+body {
+    font-family: "Roboto", sans-serif;
 }
 
 h2 {
@@ -256,4 +259,22 @@ h2 {
 .vendorAppPhone {
     display: flex;
     justify-content: center;
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 150px;
+    padding: 30px;
+}
+
+.videoContainer p {
+    width: 75%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+
 }
