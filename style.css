@@ -606,7 +606,7 @@ h2 {
 .last-part {
     display: flex;
     flex-direction: row;
-    margin: 4rem;
+    margin: 6rem;
     margin-top: 18rem;
 }
 
@@ -654,21 +654,26 @@ h2 {
     margin-left: 5rem;
 }
 
+.stulpeliu a {
+    text-decoration: none;
+    color: #60267F;
+}
+
 .right-side p {
     color: #60267F;
 }
 
 .susisiekime {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
     margin: 4rem;
 }
 
 
 
 .ikoneles > img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin: 5px;
 }
 
